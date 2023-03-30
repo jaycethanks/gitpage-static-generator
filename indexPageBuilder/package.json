@@ -1,0 +1,40 @@
+{
+  "name": "jaycethanks.github.io",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "exec": "ts-node --esm ./src/index.ts",
+    "webpack": "webpack",
+    "commit": "git-cz"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -e $GIT_PARAMS"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaycethanks/jaycethanks.github.io.git"
+  },
+  "author": "jayce",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jaycethanks/jaycethanks.github.io/issues"
+  },
+  "homepage": "https://github.com/jaycethanks/jaycethanks.github.io#readme",
+  "devDependencies": {
+    "dotenv": "^16.0.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.0.2"
+  },
+  "dependencies": {
+    "@types/jsdom": "^21.1.1",
+    "@types/marked": "^4.0.8",
+    "@types/node": "^18.15.11",
+    "jsdom": "^21.1.1",
+    "marked": "^4.3.0",
+    "showdown": "^2.1.0"
+  }
+}
