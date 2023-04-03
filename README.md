@@ -113,3 +113,6 @@ npm run exec
 ```
 
 `npm run exec` 执行之后， 在根目录会生成静态页面
+
+
+可以结合 https://github.com/jaycethanks/ts-demo-init 使用哦!
